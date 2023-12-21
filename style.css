@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navigation {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    justify-content: space-between;
+    padding-top: 5px;
+    background-color: transparent; 
+}
+.header{
+    width: 100%;
+    height: 110vh;
+    background: url(./assets/Title-Image.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Header{
+    border-top: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 500px;
+}
+.Headerr{
+    margin-left: 1100px;
+    max-width: 20%;
+    display: flex;
+    justify-content:space-between;
+}
+h4{
+    margin-top: 7px;
+}
+.Headerr img {
+    margin-top: 20px;
+    height: 25px;
+}
+#Ninebutton{
+    margin-left: 96%;
+    height : 30px;
+}
+.Info{
+    margin-top: 320px;
+    margin-left: 50px;
+    color: white; 
+}
+.Logo h3{
+    display: inline;
+}
+.Logo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#button1{
+    color: black;
+    width: fit-content;
+}
+.Logo h3 {
+    font-size: 25px;
+    margin-left: 18px;
+    letter-spacing: 20px;
+}
+.Info h1 {
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-size: 180px;
+}
+.Info button {
+    border-color: transparent;
+    margin-left: 10px;
+    border-radius: 5px;
+    width : 20px;
+    padding: 10px 20px;
+    font-size: 28px;
+}
+#button2{
+    background-color: rgb(140, 141, 144);
+    color: white;
+    opacity: 0.7;
+    width: fit-content;
+}
+
+.header span {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.header span h3 {
+    margin-right: 10px;
+    height : 20px;
+}
+
+.Movies1{
+    background-color: rgb(20, 20, 20);
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+}
+
+.Movies11{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 6px;
+    margin-top: -45px;
+}
+.Top10{
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.Top10 span {
+    display: flex;
+    margin-left: 60px;
+}
+.Movies1 img {
+    width: 301px;
+    border-radius: 10px;
+}
+.Top10 span img {
+    margin-left: 10px;
+    height : 20px ;
+}
+.Top{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Movies{
+    justify-content: center;
+    margin-right: -40px;
+    padding-top: 30px;
+    width: 330px;
+    display: flex;
+}
+
+.Movies img {
+    height: 190px;
+    border-radius: 5px;
+    margin-left: -5px;
+}
+
+.Trending{
+    padding-top: 30px;
+    padding-left: 180px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.Trending span {
+    color: white;
+    display: flex;
+    margin-left: -120px;
+}
+
+.Movies1{
+    margin-top: -45px;
+    display: flex;
+    margin-left: 8px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.Movies2{
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.Movies2 img {
+    margin-left: -169px;
+    width: 302px;
+    border-radius: 10px;
+}
+
+.Scifi{
+    padding-left: 180px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    padding-top: 30px;
+}
+
+.Scifi span {
+    color: white;
+    display: flex;
+    margin-left: -120px;
+    height: 20px;
+}
+
+footer{
+    line-height: 200%;
+    font-size: small;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: grey;
+    justify-content: space-evenly;
+    font-weight: 1px;
+}
+.One-button{
+    border: solid;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 1px solid grey;
+    padding: 5px;
+    color: grey;
+    
+}
+.Grind1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5.5%;
+    width: 200px;
+    background-color: rgb(20, 20, 20);
+}
+
+.Grind1 img {
+    margin-top: 50px;
+}
+.copyright {
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    background-color: black;
+    padding-top: 15px;
+    font-size: 10px;
+    color: gray;
+ 
+}
+
+.Grind2{
+    margin-left: 4%;
+}
+
+.copyright p {
+    margin-left: 18.5%;
+}
